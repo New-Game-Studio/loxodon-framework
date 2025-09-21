@@ -2,7 +2,7 @@
 
 # Loxodon Framework Log4Net
 
-[![license](https://img.shields.io/badge/license-MIT-blue.png)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/badge/release-v2.0.0-blue.png)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/badge/license-MIT-blue.png)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/badge/release-v2.0.0-blue.png)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 
 *Developed by Clark*
@@ -67,13 +67,13 @@ Installing the framework in this way does not require nodejs and openm-cli.
 
 ### Install via git URL
 
-After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
+After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
 
 Loxodon.Framework.Log4Net depends on Loxodon.Framework, please install Loxodon.Framework first.
 
-- Loxodon.Framework:  https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework
+- Loxodon.Framework:  https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework
 
-- Loxodon.Framework.Log4Net: https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.Log4Net/Assets/LoxodonFramework/Log4Net
+- Loxodon.Framework.Log4Net: https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.Log4Net/Assets/LoxodonFramework/Log4Net
 
 
 ![](docs/images/install_via_git.png)
@@ -82,12 +82,12 @@ Loxodon.Framework.Log4Net depends on Loxodon.Framework, please install Loxodon.F
 
 Download Loxodon.Framework.unitypackage and Loxodon.Framework.Log4Net.unitypackage, import them into your project.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## English manual
 
-- [HTML](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
-- [PDF](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
+- [HTML](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
+- [PDF](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
 
 ## Quick Start
 

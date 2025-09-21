@@ -24,10 +24,10 @@
     "email": "yangpc.china@gmail.com"
   },
   "category": "GUI",
-  "homepage": "https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Obfuscation",
+  "homepage": "https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Obfuscation",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vovgou/loxodon-framework"
+    "url": "https://github.com/New-Game-Studio/loxodon-framework"
   },
   "relatedPackages": {},
   "dependencies": {}

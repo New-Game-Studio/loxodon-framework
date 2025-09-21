@@ -2,7 +2,7 @@
 
 # Loxodon Framework OSA
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 [(English)](README.md)
 
@@ -12,7 +12,7 @@
 
 ## 要求 ##
 
-[Loxodon Framework](https://github.com/vovgou/loxodon-framework)
+[Loxodon Framework](https://github.com/New-Game-Studio/loxodon-framework)
 
 [Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436)
 
@@ -24,7 +24,7 @@
 
 从框架的发布地址下载 Loxodon.Framework.OSA.unitypackage, 导入到项目中即可.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## 快速开始 ##
 

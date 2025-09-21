@@ -13,13 +13,13 @@
   "author": {
     "name": "Clark Yang",
     "email": "yangpc.china@gmail.com",
-    "url": "https://github.com/vovgou/loxodon-framework"
+    "url": "https://github.com/New-Game-Studio/loxodon-framework"
   },
  "category": "GUI",
-  "homepage": "https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.NLog",
+  "homepage": "https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.NLog",
   "repository": {
     "type": "git",
-    "url": "https://github.com/vovgou/loxodon-framework"
+    "url": "https://github.com/New-Game-Studio/loxodon-framework"
   },
   "relatedPackages": {},
   "dependencies": {

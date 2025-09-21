@@ -42,16 +42,16 @@ The framework and all plugins have also been published to the npm repository. Us
 
 ### Install via git URL
 
-After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
+After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
 
 ![](docs/images/install_via_git.png)
 
 ### Install via *.unitypackage file
 
-Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon-framework/releases) and import it into your project.
+Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) and import it into your project.
 
 - [AssetStore](https://assetstore.unity.com/packages/tools/gui/loxodon-framework-77446)
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ### Import the samples
 

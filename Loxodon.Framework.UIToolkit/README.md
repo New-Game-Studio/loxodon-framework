@@ -2,7 +2,7 @@
 
 # Loxodon Framework UIToolkit
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-uitoolkit?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework-uitoolkit/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-uitoolkit)](https://www.npmjs.com/package/com.vovgou.loxodon-framework-uitoolkit)
 
@@ -57,12 +57,12 @@ Requires Unity 2021.3 or higher.
 
 从框架的发布地址下载 Loxodon.Framework.unitypackage 和 Loxodon.Framework.UIToolkit.unitypackage, 导入到项目中即可.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## English manual
 
-- [HTML](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
-- [PDF](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
+- [HTML](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
+- [PDF](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
 
 ## 快速开始
 

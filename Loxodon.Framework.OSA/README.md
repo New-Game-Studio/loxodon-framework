@@ -2,7 +2,7 @@
 
 # Loxodon Framework OSA
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 [(中文版)](README_CN.md)
 
@@ -12,7 +12,7 @@ This plugin is developed based on [Optimized ScrollView Adapter](https://assetst
 
 ## Requires ##
 
-[Loxodon Framework](https://github.com/vovgou/loxodon-framework)
+[Loxodon Framework](https://github.com/New-Game-Studio/loxodon-framework)
 
 [Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436)
 
@@ -24,7 +24,7 @@ This plugin is developed based on [Optimized ScrollView Adapter](https://assetst
 
 Download the Loxodon.Framework.OSA.unitypackage and import it into your project.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## Quick Start ##
 

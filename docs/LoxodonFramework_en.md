@@ -246,16 +246,16 @@ Find Packages/manifest.json file in your project root folder，add the third-par
 
 Unity provides git URL installation method for version 2019.3.4f1 or later.
 
-Add [https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework) to UPM manager as below picture, installation will be completed after waiting a moment.
+Add [https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework) to UPM manager as below picture, installation will be completed after waiting a moment.
 
 ![](images/install_via_git.png)
 
 ### Install via *.unitypackage file
 
-Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon-framework/releases) and import it into your project.
+Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) and import it into your project.
 
 - [AssetStore](https://assetstore.unity.com/packages/tools/gui/loxodon-framework-77446)
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 
 ### Import example
@@ -268,12 +268,12 @@ Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon
 
 ## Official Plugin(optional)
 
-- [Loxodon Framework XLua](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.XLua)
+- [Loxodon Framework XLua](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.XLua)
 
-	XLua plugin in Loxodon.Framework is a Lua MVVM framework, which supports mixed programming by Lua and C# in entire game. See the next chapter for installation steps or refer the documents in [Loxodon.Framework.XLua](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.XLua).
+	XLua plugin in Loxodon.Framework is a Lua MVVM framework, which supports mixed programming by Lua and C# in entire game. See the next chapter for installation steps or refer the documents in [Loxodon.Framework.XLua](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.XLua).
 
 
-- [Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.LocalizationsForCsv)
+- [Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.LocalizationsForCsv)
 
 	Support localization file as csv file, requires Unity2018.4 or later.  
 
@@ -283,7 +283,7 @@ Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon
 
     ![](images/bundle.png)
 
-- [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.FairyGUI)
+- [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.FairyGUI)
 
 	The framework already supports data binding for FairyGUI controls. Please download FairyGUI-unity and Loxodon Framework FairyGUI, then import them into your project.
 
@@ -291,15 +291,15 @@ Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon
 
 	* [FairyGUI-unity](https://github.com/fairygui/FairyGUI-unity)
 
-	* [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework/releases)
+	* [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
-- [Loxodon Framework Log4Net](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Log4Net)
+- [Loxodon Framework Log4Net](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Log4Net)
 
 	Plug-in for printing logs in Unity using Log4Net, and support remote debugging in LAN.
 
     ![](images/log4net.png)
 
-- [Loxodon Framework Obfuscation](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Obfuscation)
+- [Loxodon Framework Obfuscation](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Obfuscation)
 
 	It's a data type and memory confused plug-in; supports ObfuscatedByte, ObfuscatedShort, ObfuscatedInt, ObfuscatedLong, ObfuscatedFloat, ObfuscatedDouble; prevents memory modifier to modify game data; supports all calculation operators; byte, short, int, long, float, double can automatic conversion between types during using.
 
@@ -313,7 +313,7 @@ Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon
 
 	    float value = (length * scale) + offset;
 
-- [Loxodon Framework Addressable](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Addressable)
+- [Loxodon Framework Addressable](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Addressable)
 
 	It's function extend and support for Addressable Asset System.
 
@@ -321,7 +321,7 @@ Download [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon
 
 ## Lua plugin installation (optional)
 
-In this framework, Lua language is supported by plug-in extensions. It relies on Tencent's XLua project and the Loxodon.Framework plugin. You can download [Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases) from Github, and import into your project. It is optional and only needs to be installed for projects that need hot update and are developed in Lua language. The specific installation steps are as follows.
+In this framework, Lua language is supported by plug-in extensions. It relies on Tencent's XLua project and the Loxodon.Framework plugin. You can download [Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) from Github, and import into your project. It is optional and only needs to be installed for projects that need hot update and are developed in Lua language. The specific installation steps are as follows.
 
 ### XLua Installation
 
@@ -337,7 +337,7 @@ Download the latest version of XLua from the Xlua Github repository, you can use
 
 ### Import Lua plugin
 
-Download [Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases) from github and import it into your Unity project.
+Download [Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) from github and import it into your Unity project.
 
 If there is a compilation error, please check whether the XLua Examples directory is imported. The InvokeLua.cs file in this directory defines the PropertyChangedEventArgs class. Because namespace is NOT used, class names will conflict. Please delete the Examples folder in the XLua directory or Add a namespace to the PropertyChangedEventArgs class in the InvokeLua.cs file.
 
@@ -1438,7 +1438,7 @@ For more examples, refer to the Localization course in Tutorials.unity
 
 If you are accustomed to using Excel, welcome to download my CSV plug-in, which supports CSV filereading with localized configuration. This plugin requires that the Unity version is above 2018 and supports .net 4.x or .net standard 2.0.
 
-Download address：[Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework/releases)
+Download address：[Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 **The configuration file format is as follows**
 
@@ -1503,7 +1503,7 @@ Localized Chinese file while is converted to XML file format (the newline charac
 
 The framework provides a scalable logging system, which supports ALL, DEBUG, INFO, WARN, ERROR, FATAL and other levels. Different levels of log can be used to print during the development phase and release of the project.
 
-I provide a debug version of Logging system in Unity3D, which basically meets general development and debugging needs, but if more powerful logging functions are needed, such as printing logs to a file system, mobile terminals printing logs to a computer via a LAN, etc. You can download my log plugin [Loxodon.Framework.Log4Net](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.Log4Net), which is a plugin implemented under Log4Net, which is very powerful.
+I provide a debug version of Logging system in Unity3D, which basically meets general development and debugging needs, but if more powerful logging functions are needed, such as printing logs to a file system, mobile terminals printing logs to a computer via a LAN, etc. You can download my log plugin [Loxodon.Framework.Log4Net](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.Log4Net), which is a plugin implemented under Log4Net, which is very powerful.
 
 Example of using the default logging system
 

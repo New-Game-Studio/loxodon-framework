@@ -2,7 +2,7 @@
 
 # Loxodon Framework
 
-[(中文版)](https://github.com/vovgou/loxodon-framework/blob/master/README.md)
+[(中文版)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/README.md)
 
 **MVVM Framework for Unity3D(C# & XLua)**
 
@@ -19,14 +19,14 @@ The plugin is compatible with MacOSX,Windows,Linux,UWP,IOS and Android,and provi
 
 ## Documents
 
-- [HTML(English)](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
-- [PDF(English)](https://github.com/vovgou/loxodon-framework/raw/master/docs/LoxodonFramework_en.pdf)
-- [HTML(中文)](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework.md)
-- [PDF(中文)](https://github.com/vovgou/loxodon-framework/raw/master/docs/LoxodonFramework.pdf)
+- [HTML(English)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
+- [PDF(English)](https://github.com/New-Game-Studio/loxodon-framework/raw/master/docs/LoxodonFramework_en.pdf)
+- [HTML(中文)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework.md)
+- [PDF(中文)](https://github.com/New-Game-Studio/loxodon-framework/raw/master/docs/LoxodonFramework.pdf)
 
 ## Downloads  
-- [Github](https://github.com/vovgou/loxodon-framework)
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Github](https://github.com/New-Game-Studio/loxodon-framework)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## Contact Us
 Email: [yangpc.china@gmail.com](mailto:yangpc.china@gmail.com)   

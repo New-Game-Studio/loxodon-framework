@@ -4,14 +4,14 @@
 
 Please visit the Loxodon Framework web site for more information:
 
-  * https://github.com/vovgou/loxodon-framework
+  * https://github.com/New-Game-Studio/loxodon-framework
 
 Copyright (c) 2018 Clark Yang
 
 The Project licenses this file to you under the MIT License, you may not use this file except in compliance
 with the License. You may obtain a copy of the License at:
 
-  https://github.com/vovgou/loxodon-framework/blob/master/LICENSE
+  https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE
 
 -------------------------------------------------------------------------------
 This product contains a modified version of TimeSpanFormat and DateTimeFormat in Microsoft's official C# library, 

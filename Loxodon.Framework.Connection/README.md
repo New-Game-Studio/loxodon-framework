@@ -2,7 +2,7 @@
 
 # Loxodon Framework Connection
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-connection?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework-connection/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-connection)](https://www.npmjs.com/package/com.vovgou.loxodon-framework-connection)
 
@@ -56,9 +56,9 @@ Installing the framework in this way does not require nodejs and openm-cli.
 
 ### Install via git URL
 
-After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
+After Unity 2019.3.4f1 that support path query parameter of git package. You can add https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework to Package Manager
 
-- Loxodon.Framework.Connection: https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.Connection/Assets/LoxodonFramework/Connection
+- Loxodon.Framework.Connection: https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.Connection/Assets/LoxodonFramework/Connection
 
 
 ![](docs/images/install_via_git.png)
@@ -67,7 +67,7 @@ After Unity 2019.3.4f1 that support path query parameter of git package. You can
 
 Download Loxodon.Framework.Connection.unitypackage, import them into your project.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## Quick Start
 

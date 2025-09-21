@@ -2,8 +2,8 @@
 
 # Loxodon Framework(Unity-MVVM)
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE)
-[![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE)
+[![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework)](https://www.npmjs.com/package/com.vovgou.loxodon-framework)
 
@@ -36,8 +36,8 @@ For detailed installation steps, please refer to the **[installation documentati
 
 ## English manual
 
-- [HTML](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
-- [PDF](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
+- [HTML](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.md)
+- [PDF](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework_en.pdf)
 
 ## Key Features:
 - MVVM Framework;
@@ -75,13 +75,13 @@ For detailed installation steps, please refer to the **[installation documentati
 - LoxodonFramework 2.0 supports Mono and IL2CPP 
 
 ## Plugins
-- [Loxodon Framework OSA](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.OSA)
+- [Loxodon Framework OSA](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.OSA)
 
 	This plugin is designed to optimize [Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436), specifically adding data binding capabilities to ListView and GridView.
 
     **Note: This plugin depends on [Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436). Please ensure you have installed Optimized ScrollView Adapter before using this plugin.**
 
-- [Loxodon Framework TextFormatting](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextFormatting) 
+- [Loxodon Framework TextFormatting](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextFormatting) 
 
     This is a text formatting plugin modified based on the official C# library. By extending the AppendFormat function of StringBuilder, it aims to avoid garbage collection (GC) when concatenating strings or converting numbers to strings. This optimization is particularly beneficial in scenarios with high-performance requirements.
 
@@ -89,40 +89,40 @@ For detailed installation steps, please refer to the **[installation documentati
 
     It's worth noting that using the controls TemplateTextMeshPro or FormattableTextMeshProUGUI from Loxodon.Framework.TextMeshPro can further reduce garbage collection (GC), achieving a completely GC-free update of the game view.
 
-- [Loxodon Framework TextMeshPro](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextMeshPro) 
+- [Loxodon Framework TextMeshPro](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextMeshPro) 
 
 	This plugin primarily serves to enhance AlertDialog and Toast views by providing TextMeshPro support, replacing UnityEngine.UI.Text with TextMeshProUGUI for optimized UI views.
 
 	Additionally, the plugin depends on the Loxodon.Framework.TextFormatting plugin, further optimizing garbage collection. By utilizing FormattableTextMeshProUGUI and TemplateTextMeshProUGUI controls, updating UI views results in absolutely no garbage collection (GC), achieving a fully GC-free view update.
 
-- [Loxodon Framework Data](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data)
+- [Loxodon Framework Data](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data)
 
 	This plugin supports exporting data from Excel files to Json files, Lua files, or LiteDB databases. Additionally, it enables converting data to C# objects using Json.Net. It is recommended to use LiteDB for storing configuration data, as it is a lightweight NoSQL embedded database that supports ORM functionality, BSON format, and data indexing, making it highly convenient to use.
 
-    - [Loxodon.Framework.Data.LiteDB](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-litedb)
-    - [Loxodon.Framework.Data.Newtonsoft](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-newtonsoft)
+    - [Loxodon.Framework.Data.LiteDB](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-litedb)
+    - [Loxodon.Framework.Data.Newtonsoft](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-newtonsoft)
 
 
-- [Loxodon Framework Fody](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody)
+- [Loxodon Framework Fody](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody)
 
 	This is a plugin for static code weaving, comprising multiple sub-plugins. It supports static weaving for objects, including the addition of the ToString function, integration of the PropertyChanged event, incorporation of the BindingProxy class, and more. This not only optimizes performance but also enhances development efficiency.
 
-    - [Loxodon.Framework.Fody.PropertyChanged](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-propertychanged)
-    - [Loxodon.Framework.Fody.ToString](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-tostring)
-    - [Loxodon.Framework.Fody.BindingProxy](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-bindingproxy)
+    - [Loxodon.Framework.Fody.PropertyChanged](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-propertychanged)
+    - [Loxodon.Framework.Fody.ToString](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-tostring)
+    - [Loxodon.Framework.Fody.BindingProxy](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-bindingproxy)
     
 
-- [Loxodon Framework UIToolkit](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.UIToolkit)
+- [Loxodon Framework UIToolkit](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.UIToolkit)
 
 	This plugin integrates UIToolkit into the Loxodon.Framework, introducing the UIToolkitWindow class. It supports data binding and allows for a mix of UIToolkit and UGUI.
 
-- [Loxodon Framework ILRuntime](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.ILRuntime)
+- [Loxodon Framework ILRuntime](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.ILRuntime)
 
-- [Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
+- [Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
 
     It supports localization files in csv format, requires Unity2018.4 or higher.
 
-- [Loxodon Framework XLua](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.XLua)
+- [Loxodon Framework XLua](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.XLua)
 
     It supports making games with lua scripts.
 
@@ -133,16 +133,16 @@ For detailed installation steps, please refer to the **[installation documentati
     The asset redundancy analyzer can help you find the redundant assets included in the AssetsBundles.Create a fingerprint for the asset by collecting the characteristic data of the asset. Find out the redundant assets in all AssetBundles by fingerprint comparison.it only supports the AssetBundle of Unity 5.6 or higher.
 
     ![](docs/images/bundle.png)
-- [Loxodon Framework NLog](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.NLog)
+- [Loxodon Framework NLog](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.NLog)
 
     This plug-in integrates NLog into Loxodon.Framework. It is recommended to use this plug-in instead of the Log4Net plug-in. It allocates less heap memory during the log printing process.
-- [Loxodon Framework Log4Net](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Log4Net)
+- [Loxodon Framework Log4Net](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Log4Net)
 
     This is a log plugin.It helps you to use Log4Net in the Unity3d.
 
     ![](docs/images/log4net.png)
 
-- [Loxodon Framework Obfuscation](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Obfuscation)
+- [Loxodon Framework Obfuscation](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Obfuscation)
 
 	The plugin is a data type memory obfuscation tool that supports ObfuscatedByte, ObfuscatedShort, ObfuscatedInt, ObfuscatedLong, ObfuscatedFloat, and ObfuscatedDouble types. Its purpose is to prevent memory modification of game values by memory editors. The plugin supports all arithmetic operators for numerical types and can automatically convert between them and their standard counterparts (byte, short, int, long, float, double).
 
@@ -156,9 +156,9 @@ For detailed installation steps, please refer to the **[installation documentati
 		
 		float value = (length * scale) + offset;
 
-- [Loxodon Framework Addressable](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Addressable)
+- [Loxodon Framework Addressable](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Addressable)
 
-- [Loxodon Framework Connection](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Connection)
+- [Loxodon Framework Connection](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Connection)
 
     This is a network connection component, implemented using TcpClient, supports IPV6 and IPV4, automatically recognizes the current network when connecting with a domain name, and preferentially connects to the IPV4 network.
 

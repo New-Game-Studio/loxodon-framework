@@ -2,7 +2,7 @@
 
 # Loxodon Framework TextUGUI
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-textugui?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework-textugui/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-textugui)](https://www.npmjs.com/package/com.vovgou.loxodon-framework-textugui)
 
@@ -83,7 +83,7 @@
 
 ### 支持格式化的文本控件(FormattableText)
 
-此控件是UnityEngine.UI.Text的扩展，支持字符串格式化功能，支持数据绑定，FormattableText控件的AsParameters<>()函数可以转为一个泛型参数集，支持1-4个不同参数，也可以支持一个泛型数组，通过泛型参数集和ViewModel进行绑定。使用这个插件，字符串和数组拼接是无GC的，但是因为Text的text属性必须是一个字符串，并且只支持字符串赋值，所以在StringBuilder.ToString()时是有GC分配的。（建议安装[Loxodon.Framework.TextMeshPro](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextMeshPro)插件，使用FormattableTextMeshProUGUI替代FormattableText，那是完全0GC的）
+此控件是UnityEngine.UI.Text的扩展，支持字符串格式化功能，支持数据绑定，FormattableText控件的AsParameters<>()函数可以转为一个泛型参数集，支持1-4个不同参数，也可以支持一个泛型数组，通过泛型参数集和ViewModel进行绑定。使用这个插件，字符串和数组拼接是无GC的，但是因为Text的text属性必须是一个字符串，并且只支持字符串赋值，所以在StringBuilder.ToString()时是有GC分配的。（建议安装[Loxodon.Framework.TextMeshPro](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextMeshPro)插件，使用FormattableTextMeshProUGUI替代FormattableText，那是完全0GC的）
 
 使用方式一：使用FormattableText.AsParameters<DateTime, int>()方法获得参数集GenericParameters<DateTime,int>，然后与视图模型绑定。
 
@@ -159,7 +159,7 @@
 
 其中FrameCount、Hero是绑定到Data的对象的属性。Health、AttackDamage、Armor是Hero对象的属性。FrameCount后面的D6是帧数这个数字类型的格式化参数。
 
-同样的只有在StringBuilder.ToString()时会产生垃圾回收(GC)。（建议安装[Loxodon.Framework.TextMeshPro](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextMeshPro)，使用TemplateTextMeshProUGUI替代TemplateText，那是完全0GC的）
+同样的只有在StringBuilder.ToString()时会产生垃圾回收(GC)。（建议安装[Loxodon.Framework.TextMeshPro](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextMeshPro)，使用TemplateTextMeshProUGUI替代TemplateText，那是完全0GC的）
 
 	public class TemplateTextExample : MonoBehaviour
     {

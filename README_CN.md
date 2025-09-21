@@ -2,8 +2,8 @@
 
 # Loxodon Framework(Unity-MVVM)
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE)
-[![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE)
+[![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework)](https://www.npmjs.com/package/com.vovgou.loxodon-framework)
 
@@ -54,9 +54,9 @@ WebGL
 
 ## 中文文档
 
-- [HTML](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework.md)
-- [PDF](https://github.com/vovgou/loxodon-framework/blob/master/docs/LoxodonFramework.pdf)
-- [常见问题解答 FAQ](https://github.com/vovgou/loxodon-framework/blob/master/docs/faq.md)
+- [HTML](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework.md)
+- [PDF](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/LoxodonFramework.pdf)
+- [常见问题解答 FAQ](https://github.com/New-Game-Studio/loxodon-framework/blob/master/docs/faq.md)
 
 ## 关键功能：
 - MVVM框架，支持UGUI、UIToolkit和FairyGUI;
@@ -97,13 +97,13 @@ WebGL
 - LoxodonFramework 2.0 支持 Mono 和 IL2CPP
 
 ## 插件与集成（可选）
-- [Loxodon Framework OSA](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.OSA)
+- [Loxodon Framework OSA](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.OSA)
 
     这个插件是对Unity的列表插件[Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436)进行扩展，为ListView和GridView增加了数据绑定功能。
 
     **注意：本插件依赖[Optimized ScrollView Adapter](https://assetstore.unity.com/packages/tools/gui/optimized-scrollview-adapter-68436)，请在使用前先安装Optimized ScrollView Adapter。**
 
-- [Loxodon Framework TextFormatting](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextFormatting)
+- [Loxodon Framework TextFormatting](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextFormatting)
 
     这是一个基于C#官方库修改的文本格式化插件，它通过扩展StringBuilder的AppendFormat函数，旨在避免在字符串拼接或数字转为字符串时产生垃圾回收（GC）。这样可以提高性能，特别是在对性能要求较高的场景下。
 
@@ -111,7 +111,7 @@ WebGL
 
     值得注意的是，如果使用Loxodon.Framework.TextMeshPro中的TemplateTextMeshPro或者FormattableTextMeshProUGUI控件，可以进一步减少垃圾回收（GC），完全0GC的更新游戏视图。
 
-- [Loxodon Framework TextMeshPro](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextMeshPro)
+- [Loxodon Framework TextMeshPro](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextMeshPro)
 
 	这个插件主要作用是为AlertDialog和Toast视图提供TextMeshPro的支持，使用TextMeshProUGUI代替UnityEngine.UI.Text，来优化UI视图。
 
@@ -120,37 +120,37 @@ WebGL
     **注意：本插件依赖TextMeshPro**
 
 
-- [Loxodon Framework Data](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data)
+- [Loxodon Framework Data](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data)
 
 	此插件支持从Excel文件中导出数据到Json文件、Lua文件或者LiteDB数据库，以及通过Json.Net将数据转为C#对象。推荐使用LiteDB存储配置数据，这是一个轻量级的NoSQL嵌入式数据库，它本身就支持ORM功能、支持BSON格式、支持数据索引功能，使用起来非常方便。
 
-    - [Loxodon.Framework.Data.LiteDB](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-litedb)
-    - [Loxodon.Framework.Data.Newtonsoft](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-newtonsoft)
+    - [Loxodon.Framework.Data.LiteDB](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-litedb)
+    - [Loxodon.Framework.Data.Newtonsoft](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data/Packages/com.vovgou.loxodon-framework-data-newtonsoft)
 
-- [Loxodon Framework Fody](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody)
+- [Loxodon Framework Fody](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody)
 
     这是一个静态织入代码的插件，它由多个子插件组成，支持为对象静态织入ToString函数，织入PropertyChanged事件，织入BindingProxy类等，在优化性能的同时也提高开发效率。
 
-    - [Loxodon.Framework.Fody.PropertyChanged](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-propertychanged)
-    - [Loxodon.Framework.Fody.ToString](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-tostring)
-    - [Loxodon.Framework.Fody.BindingProxy](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-bindingproxy)
+    - [Loxodon.Framework.Fody.PropertyChanged](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-propertychanged)
+    - [Loxodon.Framework.Fody.ToString](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-tostring)
+    - [Loxodon.Framework.Fody.BindingProxy](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Fody/Packages/com.vovgou.loxodon-framework-fody-bindingproxy)
 
 
-- [Loxodon Framework UIToolkit](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.UIToolkit)
+- [Loxodon Framework UIToolkit](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.UIToolkit)
 
     此插件将UIToolkit整合到Loxodon.Framework框架中，增加了UIToolkitWindow类，支持数据绑定，支持UIToolkit和UGUI的混用。
 
-- [Loxodon Framework ILRuntime](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.ILRuntime)
+- [Loxodon Framework ILRuntime](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.ILRuntime)
 
 	Loxodon.Framework.ILRuntime插件为框架增加了对ILRuntime的支持，可以在ILRuntime环境以MVVM的模式开发游戏。同时还可以引入Fody静态织入INotifyPropertyChanged接口，自动为VM对象的属性添加属性改变事件，简化代码编写，具体可以参见我的示例代码。
 
-- [Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
+- [Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
 
     支持本地化文件格式为csv文件格式，要求 Unity2018.4 以上版本.
 
-- [Loxodon Framework XLua](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.XLua)
+- [Loxodon Framework XLua](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.XLua)
 
-    Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua和c#混合编程或者也可以完全使用lua来编写您的整个游戏。安装步骤详见下一章节或者查看[Loxodon.Framework.XLua的文档](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.XLua)    
+    Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua和c#混合编程或者也可以完全使用lua来编写您的整个游戏。安装步骤详见下一章节或者查看[Loxodon.Framework.XLua的文档](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.XLua)    
 
 - [Loxodon Framework Bundle](https://assetstore.unity.com/packages/slug/87419)
 
@@ -158,33 +158,33 @@ WebGL
 
     ![](docs/images/bundle.png)
 
-- [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.FairyGUI)
+- [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.FairyGUI)
 
     框架已支持FairyGUI控件的数据绑定，请下载FairyGUI-unity和Loxodon Framework FairyGUI，并导入项目中。
 
     **下载：**
     [FairyGUI-unity](https://github.com/fairygui/FairyGUI-unity)
-    [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework/releases)  
+    [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework/releases)  
 
-- [Loxodon Framework NLog](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.NLog)
+- [Loxodon Framework NLog](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.NLog)
 
     支持使用NLog在Unity中打印日志，建议使用这个插件替代以前的Log4Net插件，他在日志打印过程中分配更少的堆内存。
-- [Loxodon Framework Log4Net](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Log4Net)
+- [Loxodon Framework Log4Net](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Log4Net)
 
     支持使用Log4Net在Unity中打印日志的插件，支持在局域网中远程调试。
 
     ![](docs/images/log4net.png)
 
-- [Loxodon Framework Obfuscation](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Obfuscation)
+- [Loxodon Framework Obfuscation](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Obfuscation)
 
     数据类型内存混淆插件，支持ObfuscatedByte，ObfuscatedShort，ObfuscatedInt,ObfuscatedLong,ObfuscatedFloat,ObfuscatedDouble类型，防止内存修改器修改游戏数值，支持数值类型的所有运算符，与byte、short、int、long、float、double类型之间可以自动转换，使用时替换对应的数值类型即可。
     Float和Double类型混淆时转为int和long类型进行与或运算，确保不会丢失精度，类型转换时使用unsafe代码，兼顾转换性能。
 
-- [Loxodon Framework Addressable](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Addressable)
+- [Loxodon Framework Addressable](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Addressable)
 
     有关Addressable Asset System功能的扩展与支持。
 
-- [Loxodon Framework Connection](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Connection)
+- [Loxodon Framework Connection](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Connection)
 
     这是一个网络连接组件，使用TcpClient实现，实现了Socket连接，自动重连，消息的订阅，事件订阅，请求、响应等操作，支持IPV6和IPV4，使用域名连接时自动识别当前网络，优先连接IPV4网络。使用IPV4地址连接时，自动尝试以``64:ff9b::``为前缀的IPV6地址，如果正确配置NAT64网关，也应该可以连上（未测试）。
 

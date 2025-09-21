@@ -10,7 +10,7 @@ puppeteer:
 
 # Loxodon Framework Data
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 
 *开发者 Clark*
@@ -21,15 +21,15 @@ puppeteer:
 
 ## 安装
 
-- [Loxodon Framework Data](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data)（必选）
+- [Loxodon Framework Data](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data)（必选）
 
 	必选插件，它支持解析excel文件，并且可以从excel文件导出到数据到Lua或者Json文件中。
 
-- [Loxodon Framework Data LiteDB](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data)(可选)
+- [Loxodon Framework Data LiteDB](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data)(可选)
 
 	可选插件，它支持将数据导出到LiteDB数据库中，支持ORM，并且自动注册了Color、Vector2、Vector3、Vector4、Vector2Int、Vector3Int、Version等类的序列化和反序列化函数，列如：自动将(1.0,1.0,1.0)字符串转换为C#对象Vector3。如果需要使用LiteDB数据库来存储配表文件，那么必须安装此插件（推荐）。
 
-- [Loxodon Framework Data Newtonsoft.Json](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Data)(可选)
+- [Loxodon Framework Data Newtonsoft.Json](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Data)(可选)
 
 	可选插件，支持使用Newtonsoft.Json解析Json数据，支持Color、Vector2、Vector3、Vector4、Vector2Int、Vector3Int、Version等类的Json类型转换器。
 

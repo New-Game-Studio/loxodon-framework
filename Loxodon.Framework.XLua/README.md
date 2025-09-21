@@ -2,7 +2,7 @@
 
 # Loxodon Framework XLua
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 
 **要求Unity 2018.4 或者更高版本**
@@ -11,17 +11,17 @@ Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua�
 
 ## 要求 ##
 
-[Loxodon Framework](https://github.com/vovgou/loxodon-framework)
+[Loxodon Framework](https://github.com/New-Game-Studio/loxodon-framework)
 
 本项目作为Loxodon.Framework插件，必须在Loxodon.Framework环境下使用，请在安装使用前先安装Loxodon.Framework框架。
 
 ## Quick start ##
 
-1. If [Loxodon.Framework 2.0](https://github.com/vovgou/loxodon-framework/blob/master/README.md) is not installed, please install it first.
+1. If [Loxodon.Framework 2.0](https://github.com/New-Game-Studio/loxodon-framework/blob/master/README.md) is not installed, please install it first.
 
 2. You can download the latest version of xlua from Xlua's Github repository,the file name is usually xlua_v2.x.xx.zip, unzip and copy it to your project.[XLua Download](https://github.com/Tencent/xLua/releases)  
         
-3. Download [Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases) from github and import it into your Unity project.
+3. Download [Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) from github and import it into your Unity project.
 
 4. **In Unity2018 and above, if you use .net 4.x and .net standard 2.0, there will be compatibility issues. Please see the xlua's FAQs.** [XLua FAQ](https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/Faq_EN.md) 
 
@@ -32,7 +32,7 @@ Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua�
 
 1. 从Xlua的Github仓库下载最新版的XLua，可以使用源码版本Source code.zip或者xlua_v2.x.xx.zip版本（建议使用xlua_v2.x.xx.zip版本，避免命XLua目录下测试类导致的类名冲突）。将下载好的xlua解压缩，拷贝到项目中。**注意：Unity2018请使用.net3.5,否则会出错，如果想使用.net4.6请参考xlua的FQA解决兼容性问题。**[XLua FAQ](https://github.com/Tencent/xLua/blob/master/Assets/XLua/Doc/faq.md) [下载XLua](https://github.com/Tencent/xLua/releases) 
         
-2. 从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases)，并导入到项目中。如果出现编译错误，请检查是否导入了XLua的Examples目录，这个目录下的InvokeLua.cs文件定义了PropertyChangedEventArgs类，因没有使用命名空间，会导致和System.ComponentModel.PropertyChangedEventArgs类冲突，请删除XLua目录下的Examples文件夹或者给InvokeLua.cs文件中的PropertyChangedEventArgs类添加上命名空间。
+2. 从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases)，并导入到项目中。如果出现编译错误，请检查是否导入了XLua的Examples目录，这个目录下的InvokeLua.cs文件定义了PropertyChangedEventArgs类，因没有使用命名空间，会导致和System.ComponentModel.PropertyChangedEventArgs类冲突，请删除XLua目录下的Examples文件夹或者给InvokeLua.cs文件中的PropertyChangedEventArgs类添加上命名空间。
 
 3.如果需要导入示例，请在"Assets/LoxodonFramework/XLua/PackageResources"文件夹下找到Examples.unitypackage，双击导入项目。
 

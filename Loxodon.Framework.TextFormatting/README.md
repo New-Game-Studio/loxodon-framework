@@ -2,7 +2,7 @@
 
 # Loxodon Framework TextFormatting
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-textformatting?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework-textformatting/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-textformatting)](https://www.npmjs.com/package/com.vovgou.loxodon-framework-textformatting)
 
@@ -14,11 +14,11 @@ Requires Unity 2021.3 or higher.
 
 This is a text formatting plugin modified based on the official C# library. By extending the AppendFormat function of StringBuilder, it aims to avoid garbage collection (GC) when concatenating strings or converting numbers to strings. This optimization is particularly beneficial in scenarios with high-performance requirements.
 
-[Loxodon.Framework.TextUGUI](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextUGUI)
+[Loxodon.Framework.TextUGUI](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextUGUI)
 
 This plugin also extends Unity's UGUI by introducing two new text controls: TemplateText and FormattableText. These controls support MVVM data binding, allowing ViewModel or value-type objects to be bound to the controls. Additionally, they avoid boxing and unboxing of value-type objects, optimizing garbage collection (GC) to the greatest extent possible.
 
-[Loxodon.Framework.TextMeshPro](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.TextMeshPro)
+[Loxodon.Framework.TextMeshPro](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.TextMeshPro)
 
 Loxodon.Framework.TextMeshPro provides TemplateTextMeshPro and FormattableTextMeshProUGUI controls based on TextMeshPro, which can further reduce garbage collection (GC) and enable completely 0-GC game view updates.
 

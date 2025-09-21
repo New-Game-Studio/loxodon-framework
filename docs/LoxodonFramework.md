@@ -233,16 +233,16 @@ LoxodonFramework是一个轻量级的MVVM(Model-View-ViewModel)框架，它是�
 
 ### 通过git URL安装
 
-Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
+Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
 
 ![](images/install_via_git.png)
 
 ### 通过 *.unitypackage 文件安装
 
-从以下地址下载 [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
+从以下地址下载 [Loxodon.Framework2.x.x.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
 
 - [AssetStore](https://assetstore.unity.com/packages/tools/gui/loxodon-framework-77446)
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 
 ### 导入示例
@@ -259,11 +259,11 @@ Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https:
 
 ## 官方插件（可选）
 
-- [Loxodon Framework XLua](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.XLua)
+- [Loxodon Framework XLua](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.XLua)
 
-    Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua和c#混合编程或者也可以完全使用lua来编写您的整个游戏。安装步骤详见下一章节或者查看[Loxodon.Framework.XLua的文档](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.XLua)    
+    Loxodon.Framework框架的XLua插件，它是一个lua的MVVM框架，支持lua和c#混合编程或者也可以完全使用lua来编写您的整个游戏。安装步骤详见下一章节或者查看[Loxodon.Framework.XLua的文档](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.XLua)    
 
-- [Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
+- [Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.LocalizationsForCsv)
 
     支持本地化文件格式为csv文件格式，要求 Unity2018.4 以上版本.
 
@@ -273,21 +273,21 @@ Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https:
 
     ![](images/bundle.png)
 
-- [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.FairyGUI)
+- [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.FairyGUI)
 
     框架已支持FairyGUI控件的数据绑定，请下载FairyGUI-unity和Loxodon Framework FairyGUI，并导入项目中。
 
     **下载：**
     [FairyGUI-unity](https://github.com/fairygui/FairyGUI-unity)
-    [Loxodon Framework FairyGUI](https://github.com/vovgou/loxodon-framework/releases)  
+    [Loxodon Framework FairyGUI](https://github.com/New-Game-Studio/loxodon-framework/releases)  
 
-- [Loxodon Framework Log4Net](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Log4Net)
+- [Loxodon Framework Log4Net](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Log4Net)
 
     支持使用Log4Net在Unity中打印日志的插件，支持在局域网中远程调试。
 
     ![](images/log4net.png)
 
-- [Loxodon Framework Obfuscation](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Obfuscation)
+- [Loxodon Framework Obfuscation](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Obfuscation)
 
     数据类型内存混淆插件，支持ObfuscatedByte，ObfuscatedShort，ObfuscatedInt,ObfuscatedLong,ObfuscatedFloat,ObfuscatedDouble类型，防止内存修改器修改游戏数值，支持数值类型的所有运算符，与byte、short、int、long、float、double类型之间可以自动转换，使用时替换对应的数值类型即可。
     Float和Double类型混淆时转为int和long类型进行与或运算，确保不会丢失精度，类型转换时使用unsafe代码，兼顾转换性能。
@@ -305,14 +305,14 @@ Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https:
        float value = (length * scale) + offset;
 
 
-- [Loxodon Framework Addressable](https://github.com/vovgou/loxodon-framework?path=Loxodon.Framework.Addressable)
+- [Loxodon Framework Addressable](https://github.com/New-Game-Studio/loxodon-framework?path=Loxodon.Framework.Addressable)
 
     有关Addressable Asset System功能的扩展与支持。
 
 
 ## Lua插件安装（可选）
 
-在本框架中，对于Lua语言的支持是通过插件扩展的方式来支持，它依赖腾讯的XLua项目和Loxodon.Framework框架，从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases)，导入你的项目。它是可选的，只有需要热更新并且使用Lua语言开发的项目才需要安装它。具体安装步骤如下。
+在本框架中，对于Lua语言的支持是通过插件扩展的方式来支持，它依赖腾讯的XLua项目和Loxodon.Framework框架，从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases)，导入你的项目。它是可选的，只有需要热更新并且使用Lua语言开发的项目才需要安装它。具体安装步骤如下。
 
 ### 安装XLua
 从Xlua的Github仓库下载最新版的XLua，可以使用源码版本Source code.zip或者xlua_v2.x.xx.zip版本（建议使用xlua_v2.x.xx.zip版本，避免和XLua示例类名冲突）。请将下载好的xlua解压缩，拷贝到当前项目中。
@@ -326,7 +326,7 @@ Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https:
 ![](images/xlua_2.1.15.png)
 
 ### 导入Lua插件
-从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/vovgou/loxodon-framework/releases)文件，双击导入项目。
+从Github下载[Loxodon.Framework.XLua.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases)文件，双击导入项目。
 
 如果出现编译错误，请检查是否导入了XLua的Examples目录，这个目录下的InvokeLua.cs文件定义了PropertyChangedEventArgs类，因没有使用命名空间，会导致类名冲突，请删除XLua目录下的Examples文件夹或者给InvokeLua.cs文件中的PropertyChangedEventArgs类添加上命名空间。
 
@@ -1386,7 +1386,7 @@ XML 格式配置如下:
 
 如果习惯使用Excel的朋友可以下载我的CSV插件，它支持读取CSV文件格式的本地化配置，但是要求Unity版本在2018以上，支持.net 4.x或者.net standard 2.0。
 
-下载地址：[Loxodon Framework Localization For CSV](https://github.com/vovgou/loxodon-framework/releases)
+下载地址：[Loxodon Framework Localization For CSV](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 **配置文件格式如下**
 
@@ -1447,7 +1447,7 @@ CSV源文件
 
 框架提供了一个可分级的日志系统，它支持ALL、DEBUG、INFO、WARN、ERROR、FATAL等多个级别，在项目在开发阶段和发布上线可以使用不同的日志打印级别。
 
-日志系统我提供了一个Unity3D的Debug版本的实现，它基本满足了一般的开发和调试需求，但是如果需要更强的日志功能，比如打印日志到文件系统，移动终端通过局域网将日志打印到电脑等，可以下载我的日志插件[Loxodon.Framework.Log4Net](https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.Log4Net)，它是一个用Log4Net实现的插件，功能非常强大。
+日志系统我提供了一个Unity3D的Debug版本的实现，它基本满足了一般的开发和调试需求，但是如果需要更强的日志功能，比如打印日志到文件系统，移动终端通过局域网将日志打印到电脑等，可以下载我的日志插件[Loxodon.Framework.Log4Net](https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.Log4Net)，它是一个用Log4Net实现的插件，功能非常强大。
 
 默认日志系统的使用示例
 

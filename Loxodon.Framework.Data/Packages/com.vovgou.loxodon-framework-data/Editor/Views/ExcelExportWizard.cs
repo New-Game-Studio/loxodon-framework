@@ -127,7 +127,7 @@ namespace Loxodon.Framework.Data.Editors
 
             if (GUILayout.Button("Excel Export", TitleGUIStyle))
             {
-                Application.OpenURL("https://github.com/vovgou/loxodon-framework/wiki");
+                Application.OpenURL("https://github.com/New-Game-Studio/loxodon-framework/wiki");
             }
 
             GUILayout.Space(10);

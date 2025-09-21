@@ -2,7 +2,7 @@
 
 # Loxodon Framework Obfuscation
 
-[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/vovgou/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/vovgou/loxodon-framework/releases)
+[![license](https://img.shields.io/github/license/vovgou/loxodon-framework?color=blue)](https://github.com/New-Game-Studio/loxodon-framework/blob/master/LICENSE) [![release](https://img.shields.io/github/v/tag/vovgou/loxodon-framework?label=release)](https://github.com/New-Game-Studio/loxodon-framework/releases)
 [![openupm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-obfuscation?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.vovgou.loxodon-framework-obfuscation/)
 [![npm](https://img.shields.io/npm/v/com.vovgou.loxodon-framework-obfuscation)](https://www.npmjs.com/package/com.vovgou.loxodon-framework-obfucation)
 
@@ -74,15 +74,15 @@ Float和Double类型混淆时转为int和long类型进行与或运算，确保�
 
 ### 通过git URL安装
 
-Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework.Obfuscation/Assets/LoxodonFramework/Obfuscation 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
+Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework.Obfuscation/Assets/LoxodonFramework/Obfuscation 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
 
 ![](docs/images/install_via_git.png)
 
 ### 通过 *.unitypackage 文件安装
 
-从以下地址下载 [Loxodon.Framework.Obfuscation.unitypackage](https://github.com/vovgou/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
+从以下地址下载 [Loxodon.Framework.Obfuscation.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
 
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ## 联系方式
 邮箱: [yangpc.china@gmail.com](mailto:yangpc.china@gmail.com)   

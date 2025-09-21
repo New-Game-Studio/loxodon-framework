@@ -58,16 +58,16 @@
 
 ### 通过git URL安装
 
-Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/vovgou/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
+Unity 2019.3.4f1及以上版本支持使用git URL安装. 如下图添加 https://github.com/New-Game-Studio/loxodon-framework.git?path=Loxodon.Framework/Assets/LoxodonFramework 地址到UPM管理器，耐性等待一段时间，下载完成后即安装成功。
 
 ![](docs/images/install_via_git.png)
 
 ### 通过 *.unitypackage 文件安装
 
-从以下地址下载 [Loxodon.Framework2.x.x.unitypackage](https://github.com/vovgou/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
+从以下地址下载 [Loxodon.Framework2.x.x.unitypackage](https://github.com/New-Game-Studio/loxodon-framework/releases) 后,导入到你的项目中即完成安装.
 
 - [AssetStore](https://assetstore.unity.com/packages/tools/gui/loxodon-framework-77446)
-- [Releases](https://github.com/vovgou/loxodon-framework/releases)
+- [Releases](https://github.com/New-Game-Studio/loxodon-framework/releases)
 
 ### 导入示例
 
